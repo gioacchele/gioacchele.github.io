@@ -1,0 +1,3 @@
+<FilesMatch "\.ttl$">
+  Header set Content-Type "text/turtle"
+</FilesMatch>
