@@ -14,12 +14,12 @@
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 
 [] a sd:Dataset ;
-   sd:graph :mygraph ;
-   sd:defaultGraph [       a sd:Graph ;       sd:name :mygraph   ] .
+   sd:graph <mygraph> ;
+   sd:defaultGraph [       a sd:Graph ;       sd:name <mygraph>   ] .
 
 [] a sd:Service ;
    sd:endpoint <http://example.com/sparql> ;
-   sd:defaultDataset [       a sd:Dataset ;       sd:name :mygraph   ] .
+   sd:defaultDataset [       a sd:Dataset ;       sd:name <mygraph>   ] .
 
 #Example from sup1881_Veneto_165
 
