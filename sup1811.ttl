@@ -11,6 +11,7 @@
 @prefix frbroo: <https://www.iflastandards.info/fr/frbr/frbroo.html> .
 @prefix fentry: <https://w3id.org/people/essepuntato/fentry> .
 @prefix oaentry: <http://purl.org/emmedi/oaentry> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 
 [] a sd:Dataset ;
    sd:graph :mygraph ;
